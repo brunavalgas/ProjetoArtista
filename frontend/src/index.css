@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif; /* Utilize uma fonte legível e versátil */
+    margin: 20px; /* Adicione espaço em branco ao redor da página */
+    background-color: hsl(0, 0%, 94%); /* Cor de fundo clara para melhor legibilidade */
+}
+
+h1 {
+    font-size: 22px; /* Tamanho de título grande */
+    font-weight: bold; /* Texto em negrito para destacar */
+    margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+
+form {
+    background-color: #fff; /* Cor de fundo branca para contraste */
+    padding: 20px; /* Espaço interno no formulário */
+    border-radius: 5px; /* Bordas arredondadas para visual suave */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra para destacar o formulário */
+}
+  
+label {
+    display: block; /* Exibe os rótulos em uma nova linha */
+    margin-bottom: 5px; /* Espaço abaixo dos rótulos */
+}
+  
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Largura total para os campos de input */
+    padding: 10px; /* Espaço interno nos campos */
+    border: 1px solid #ccc; /* Borda para os campos */
+    border-radius: 3px; /* Bordas arredondadas nos campos */
+}
+  
+button[type="submit"] {
+    background-color: #007bff; /* Cor azul para o botão */
+    color: #fff; /* Cor branca para o texto do botão */
+    padding: 10px 20px; /* Espaço interno no botão */
+    border: none; /* Remover borda padrão do botão */
+    border-radius: 5px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Indicar que o botão é clicável */
+}
+  
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Cor azul mais escura ao passar o mouse */
+}
+
+.delete-button {
+    background-color: #ff4d4d; /* Cor vermelha para o botão de deletar */
+    color: #fff; /* Cor branca para o texto do botão */
+    padding: 5px 10px; /* Espaço interno no botão */
+    border: none; /* Remover borda padrão do botão */
+    border-radius: 3px; /* Bordas arredondadas no botão */
+    cursor: pointer; /* Indicar que o botão é clicável */
+}
+  
+.delete-button:hover {
+    background-color: #dc3545; /* Cor vermelha mais escura ao passar o mouse */
+}
+
